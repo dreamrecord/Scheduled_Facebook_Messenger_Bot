@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.options import Options
 import schedule
 import time
 
-# uncomment the function  and  schedule line down bellow if u dont want to use cron jobs for  scheduling execution of the script
+# uncomment the function  and  schedule line down bellow if u dont want to use cron jobs for  scheduling execution of the script and also  make a one  space indentation after declaring the function to all of the code bellow
 #↓↓↓↓↓↓↓↓↓↓↓↓↓
 # def remind():
     
@@ -47,7 +47,7 @@ first_account.click()
 time.sleep(3)
 #THE MESSAGE GOES HERE 
      #↓↓↓↓↓
-message=""
+message = ""
 message_text_box = driver.find_element_by_css_selector(".notranslate")
 message_text_box.send_keys(message)
 

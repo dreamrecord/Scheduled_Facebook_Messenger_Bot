@@ -56,7 +56,9 @@ time.sleep(1)
 send_button = driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div[2]/div/form/div/div[3]/span[2]/div")
 send_button.click()
 
-
+#exits the browser 
+time.sleep(7)
+driver.quit()
 #information about schedule https://pypi.org/project/schedule/
 # I USE SCHEDULE TO SEND OUT A MESSAGE AT 15:00 PM
 # choose to your liking

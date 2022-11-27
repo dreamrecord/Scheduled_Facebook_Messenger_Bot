@@ -1,0 +1,7 @@
+{
+    "email" : "",
+    "password" : "",
+    "contact" : "",
+    "messages" : ["test message w/o line break 1", "test message w/o line break 2"],
+    "send_time" : "00:00"
+}
